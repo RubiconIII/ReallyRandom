@@ -1,0 +1,22 @@
+{
+  "name": "reallyrandom",
+  "version": "1.0.0",
+  "description": "Experimental app to generate the most random strings possible.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/RubiconIII/ReallyRandom",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Curtis P. Hohl",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.0"
+  }
+}
