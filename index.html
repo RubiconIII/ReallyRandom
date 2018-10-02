@@ -3,8 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <title>ReallyRandom</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
   </head>
   <body>
+
+      <div id="title-bar">
+          <div id="title">ReallyRandom</div>
+          <div id="title-bar-btns">
+               <button id="min-btn">-</button>
+               <button id="max-btn">+</button>
+               <button id="close-btn">x</button>
+          </div>
+     </div>
+
     <h1>Hello World!</h1>
     <p> Welcome to ReallyRandom</p>
     <!-- All of the Node.js APIs are available in this renderer process. -->
@@ -13,8 +24,8 @@
     and Electron <script>document.write(process.versions.electron)</script>.
 
     <script>
-      // You can also require other files to run in this process
       require('./renderer.js')
+      require('./title-bar.js')
     </script>
   </body>
 </html>
