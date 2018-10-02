@@ -1,0 +1,29 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color:white;
+    background-color: black;
+    text-align: center;
+   }
+   
+   #title-bar {
+    -webkit-app-region: drag;
+    height: 32px;
+    font-size: 12px;
+    background-color: black;
+    padding: none;
+    margin: 0px; 
+   }
+   
+   #title {
+    position: fixed;
+    top: 0px;
+    left: 6px; 
+   }
+   
+   #title-bar-btns {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 0px;
+    right: 6px;
+   }

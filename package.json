@@ -17,6 +17,7 @@
   "author": "Curtis P. Hohl",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^3.0.0"
+    "electron": "^3.0.0",
+    "gulp": "^4.0.0"
   }
 }
