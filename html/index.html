@@ -7,22 +7,30 @@
   </head>
   <body>
 
-      <div id="title-bar">
-          <div id="title">ReallyRandom</div>
-          <div id="title-bar-btns">
-               <button id="min-btn">-</button>
-               <button id="max-btn">+</button>
-               <button id="close-btn">x</button>
-          </div>
-     </div>
+    <div id="title-bar">
+        <div id="title">ReallyRandom</div>
+        <div id="title-bar-btns">
+              <button id="min-btn">-</button>
+              <button id="max-btn">+</button>
+              <button id="close-btn">x</button>
+        </div>
+    </div>
 
-    <h1>Hello World!</h1>
-    <p> Welcome to ReallyRandom</p>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <h1>ReallyRandom</h1>
+    <p> 
+      This is an application that utlizes several different inputs to create the most random string possible. Our first task is taking
+      a random string from you and seeding our ReallyRandom string using that. 
+    </p>
 
+    <form>
+        Random String <input type="text" name="rString">
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>
+      String Generated: <br>
+      blah
+    </p>
     <script>
       require('./renderer.js')
       require('./title-bar.js')
