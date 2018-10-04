@@ -3,7 +3,7 @@ function getRandomString() {
 }
 
 var randomString = function randomString(inputString) { 
-	var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz1234567890"; //list of avaliable chars
+	var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz"; //list of avaliable chars
 	var stringLength = 8; //password length
 	var random = ""; //init random string
 	for (var i=0; i<stringLength; i++) { //append for as long as the stringLength
