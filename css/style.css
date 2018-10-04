@@ -1,11 +1,16 @@
-body {
+   body {
     padding: 0px;
     margin: 0px;
     color:white;
     background-color: black;
     text-align: center;
    }
-   
+
+   h1{
+    font-family: "Inter-UI-Black";
+    font-size: 3em;
+   }
+
    #title-bar {
     -webkit-app-region: drag;
     height: 32px;
@@ -43,6 +48,28 @@ body {
     margin: 0.1rem;
     cursor: pointer;
    }
+
+   input[type=submit] {
+    padding:5px 15px; 
+    font-size: 11px;
+    width: 15px;
+    color: #28CD40;
+    border-radius: 50px;
+    background:#28CD40;
+    border: 0 none;
+    cursor:pointer;
+   }
+
+   input[type=text] {
+    padding:5px 15px; 
+    font-size: 11px;
+    font-family: "Inter-UI-Regular";
+    width: 180px;
+    border-radius: 13px;
+    background:white;
+    border: 0 none;
+   }
+
    #max-btn {
     background: #28CD40;
    }
@@ -58,3 +85,27 @@ body {
        border-radius: 50px;
        padding: 0px 5px 0px 5px;
    }
+
+@font-face{
+    font-family: "Inter-UI-Black";
+    src: url('../interUI/Inter-UI-Black.woff'),
+    url('../interUI/Inter-UI-Black.woff');
+}
+
+@font-face{
+    font-family: "Inter-UI-Bold";
+    src: url('../interUI/Inter-UI-Bold.woff'),
+    url('../interUI/Inter-UI-Bold.woff');
+}
+
+@font-face{
+    font-family: "Inter-UI-Medium";
+    src: url('../interUI/Inter-UI-Medium.woff'),
+    url('../interUI/Inter-UI-Medium.woff');
+}
+
+@font-face{
+    font-family: "Inter-UI-Regular";
+    src: url('../interUI/Inter-UI-Regular.woff'),
+    url('../interUI/Inter-UI-Regular.woff');
+}
