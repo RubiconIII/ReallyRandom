@@ -8,7 +8,21 @@
 
    h1{
     font-family: "Inter-UI-Black";
-    font-size: 3em;
+    font-size: 2em;
+   }
+
+   .homeLogo{
+       height: 100px;
+       margin: 0 auto;
+       padding-bottom: 30px;
+       padding-top: 30px;
+   }
+
+   .home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
    }
 
    #title-bar {
