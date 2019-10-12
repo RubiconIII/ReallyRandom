@@ -74,14 +74,20 @@
     cursor:pointer;
    }
 
-   input[type=text] {
-    padding:5px 15px; 
+   input[type=text], input[type=number] {
+    padding:5px 15px;
+    margin:5px 15px; 
     font-size: 11px;
     font-family: "Inter-UI-Regular";
     width: 180px;
     border-radius: 13px;
     background:white;
     border: 0 none;
+   }
+
+   input[type=number], .nextToButton{
+    padding-right: 0px; 
+    width: 160px;
    }
 
    #max-btn {
